@@ -13,11 +13,11 @@ function initMap() {
     var marker = new google.maps.Marker({
         position: myLatLng,
         map: hawkesBayMap,
-        title: 'Sahara Outlet Hastings'
+        title: 'Sahara Clothing Outlet Hastings'
     });
     
     /* Ties info box to marker and activates when marker is clicked */
-    var contentString = '<p><b>Sahara Outlet Hastings</b></p>' + '<p>The Plaza St Aubyn Street East<br> & Karamu Road<br>Hastings<br>4122<br>New Zealand</p>';
+    var contentString = '<p><b>Sahara Clothing Outlet Hastings</b></p>' + '<p>The Plaza St Aubyn Street East<br> & Karamu Road<br>Hastings<br>4122<br>New Zealand</p>';
     var infowindow = new google.maps.InfoWindow({
         content: contentString
     });

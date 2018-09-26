@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Sahara Clothing</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <script src="js/contact_page_form_script.js"></script>
 </head>
 <body>
 <!--  This page will include two forms; the first being contact the company, the second being subscription to our news letter  -->
+    <form>
+        <input id="subscription" name="subscription" type="text" placeholder="Email">
+        <button type="button" onclick="subForm()">Subscribe</button>
+    </form>
+    
+    
+    <!--  Customer enquiry form  -->
+    <form>
+        <input id="fullName" name="fullName" type="text" placeholder="Full Name">
+        <input id="email" name="email" type="text" placeholder="Email">
+        <input id="contactNumber" name="contactNumber" type="text" placeholder="Contact Number">
+        <input id="enquiry" name="enquiry" type="text" placeholder="Enquiry">
+        <button type="button" onclick="saveForm()">Submit</button>
+    </form>
+    <!--  Error tag for restricted web storage  -->
+    <p id="error"></p>
+    
 </body>
 </html>

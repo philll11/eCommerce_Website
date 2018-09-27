@@ -1,0 +1,14 @@
+article {
+    border-style: solid;
+    float: left;
+    width: 50%;
+    margin-left:  25%;
+    text-align: center;
+}
+
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}

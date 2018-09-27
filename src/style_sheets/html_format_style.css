@@ -1,4 +1,9 @@
+article aside, figure, figcaption, footer, hgroup, header, section, nav {
+    display: block;
+}
+
 body {
+    min-width: 870px;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;    
 }

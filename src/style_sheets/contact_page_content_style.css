@@ -1,27 +1,21 @@
-@media screen and (max-width: 1300px) {
-    .buttonContainer a {
-        display: block;        
-    }
-    .contactForm {
-        text-align: center;
-    }
-    .contactForm input {
-        display: block;
-    }
-}
-
 .section {
 /*    border-style: solid;*/
     width: 60%;
     margin: auto;
 }
-
-.page_breaker_image {
-/*    border-style: solid;*/
+#upperImage {
     width: 60%;
-    margin: 10% auto 0;
-    padding: 10px;
+    margin: auto;
+    padding: 30px 0 20px;
     text-align: center;
+    transform: scale(0.70);
+}
+#lowerImage {
+    width: 60%;
+    margin: auto;
+    padding: 30px 0 20px;
+    text-align: center;
+    transform: rotate(180deg) scale(0.70);
 }
 
 /* Forms */
@@ -32,7 +26,8 @@
 }
 
 .contactForm h1 {
-/*    border-style: solid;*/
+/*    border-style: solid;*/    
+    text-align: center;
     background-color: white;
     font-family: "Playfair Display";
     text-decoration: none;
@@ -40,7 +35,8 @@
     font-size: 25px;
     color: black;
     margin: 5px 0;
-    padding: 10px;    
+    padding: 10px;
+/*    width: 100%;*/
 }
 
 .contactForm input {

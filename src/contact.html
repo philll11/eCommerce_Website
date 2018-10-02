@@ -5,7 +5,6 @@
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style_sheets/html_format_style.css">
-    <link rel="stylesheet" type="text/css" href="style_sheets/nav_bar_style.css">
     <link rel="stylesheet" type="text/css" href="style_sheets/contact_page_content_style.css">
     <script src="js/contact_page_form_script.js"></script>
 </head>
@@ -28,11 +27,66 @@
     
     
 <!--Page content  -->
-    <section>
-        <article><a href="store_location.html">Location</a></article>
-        <article><a href="collection_data.html">Collection Data</a></article>
-    </section>
+    <div class="section">
+        <div class="page_breaker_image">
+            <img src="images/page_break.jpg">
+        </div>
+        <div class="contactForm">
+            <h1>ENQUIRIES</h1>
+            
+            
+<!--##########   Inputs not centered when window resizes    ##########3--
+<!--##########   Inputs not centered when window resizes    ##########3--
+<!--        Customer enquiry form  -->            
+            <form>
+                <input id="fullName" name="fullName" type="text" placeholder="Full Name">
+                <input id="email" name="email" type="text" placeholder="Email">
+                <input id="contactNumber" name="contactNumber" type="text" placeholder="Contact Number">
+                <input id="enquiry" name="enquiry" type="text" placeholder="Enquiry">
+                <button type="button" onclick="saveForm()">Submit</button>
+            </form>
+<!--##########   Inputs not centered when window resizes    ##########3--
+<!--##########   Inputs not centered when window resizes    ##########3--
 
+
+
+            <hr>
+<!--        Email subscription entry -->            
+            <h1>NEWSLETTER SUBSCRIPTION</h1>
+            <form>
+                <input id="subscription" name="subscription" type="text" placeholder="Email">
+                <button type="button" onclick="subForm()">Subscribe</button>
+            </form>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+<!--##########   This image is not rotated    ##########3-->
+<!--##########   This image is not rotated    ##########3-->
+        <div class="page_breaker_image">
+            <img src="images/page_break_rotated.jpg">
+        </div>        
+    </div>
+<!--##########   This image is not rotated    ##########3-->
+<!--##########   This image is not rotated    ##########3-->
+    
+
+<!--##########   Footer overs content    ##########3-->
+<!--##########   Footer overs content    ##########3--> 
+    <div class="footer">
+        <a href="about_us.html">About</a>        
+        <a href="store_location.html">Location</a>
+        <a href="collection_data.html">Collection Data</a>
+    </div>
+<!--##########   Footer overs content    ##########3-->
+<!--##########   Footer overs content    ##########3-->
     
 </body>
 </html>

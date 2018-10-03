@@ -45,14 +45,16 @@ body {
   color: black;
 }
 
-
 /* Footer styling */
 .footer {
-    border-style: solid;
-    background-color: white;
+/*    border-style: solid;*/
+    text-align: center;
+    background-color: #c6c6c6;
+    box-shadow: 0 -4px 4px -2px gray;
     bottom: 0;
     width: 100%;
-    height: 200px;
+    height: 125px;
+    padding-top: 75px;
     
 }
 .footer a {
@@ -60,10 +62,18 @@ body {
     text-decoration: none;
     font-family: "Playfair Display";
     letter-spacing: 5px;
-    font-size: 17px;
+    font-size: 25px;
     padding: 9px 16px;
 }
 .footer a:hover {
     background-color: #ddd;
     color: black;
+}
+.footer span {
+    font-size: 25px;
+}
+.footer p {
+    font-family: "Playfair Display";
+    font-size: 13px;
+    padding-top: 10px;
 }

@@ -4,23 +4,24 @@
     <title>Sahara Clothing</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
+    
     <link rel="stylesheet" type="text/css" href="style_sheets/html_format_style.css">
     <link rel="stylesheet" type="text/css" href="style_sheets/contact_page_content_style.css">
-    <script src="js/contact_page_form_script.js"></script>
+    
 </head>
 <body>
     
 <!--  Nav bar  -->
     <nav class="navBox">
         <div class="navImg">
-            <a href="home.html">Sahara Clothing</a>
+            <a title="Name" href="home.html">Sahara Clothing</a>
         </div>
         <div class="navPageLinks">
-            <a class="active" href="contact.html">Contact</a>
-            <a href="childrens.html">Kids</a>
-            <a href="womens.html">Womens</a>
-            <a href="mens.html">Mens</a>
-            <a href="home.html">Home</a>
+            <a title="Contacts" class="active" href="contact.html">Contact</a>
+            <a title="Childrens" href="childrens.html">Kids</a>
+            <a title="Womens" href="womens.html">Womens</a>
+            <a title="Mens" href="mens.html">Mens</a>
+            <a title="Home" href="home.html">Home</a>
         </div>
     </nav>
     
@@ -30,6 +31,17 @@
         <div id="upperImage" >
             <img src="images/page_break.jpg">
         </div>
+        
+        <div id="contactInfo">
+            
+            <h1>CONTACT US</h1>
+            <p>The Plaza, St Aubyn Street East & Karamu Road, Hastings</p>
+            <p>027 466 58394</p>
+            <p>info@Sahara.co.nz</p>
+            <p><strong>Store Hours:</strong></p>
+            <pre><p>Mon | 9am - 5pm<br>Tue | 9am - 5pm<br>Wed | 9am - 5pm<br>Thu | 9am - 5pm<br>Fri | 9am - 5pm</p></pre>    
+        </div>
+        
 <!--        Customer enquiry form  -->
         <div class="contactForm">
             <h1>ENQUIRIES</h1>
@@ -46,8 +58,8 @@
             <hr>
             
 <!--        Email subscription entry -->
-                <h1>NEWSLETTER SUBSCRIPTION</h1>
-                <div class="contactContainer">
+            <h1>NEWSLETTER SUBSCRIPTION</h1>
+            <div class="contactContainer">
                 <form>
                     <input id="subscription" name="subscription" type="text" placeholder="Email">
                     <button type="button" onclick="subForm()">Subscribe</button>
@@ -55,7 +67,7 @@
             </div>
         </div>
         
-        <div id="lowerImage" >
+        <div id="lowerImage">
             <img src="images/page_break.jpg">
         </div>        
     </div>
@@ -63,12 +75,18 @@
 <!--##########   Footer overs content    ##########3-->
 <!--##########   Footer overs content    ##########3--> 
     <div class="footer">
-        <a href="about_us.html">About</a>     
-        <a href="store_location.html">Location</a>
-        <a href="collection_data.html">Collection Data</a>
+        <a title="About Us" href="about_us.html">About</a>
+        <span>|</span>  
+        <a title="Location" href="store_location.html">Location</a>
+        <span>|</span> 
+        <a title="Collection Data" href="collection_data.html">Collection Data</a>
+        <p>Powered by Sahar Software</p>
     </div>
 <!--##########   Footer overs content    ##########3-->
 <!--##########   Footer overs content    ##########3-->
     
 </body>
+    
+    <script src="js/contact_page_form_script.js"></script>
+    <script src="js/nav_bar_script.js"></script>
 </html>

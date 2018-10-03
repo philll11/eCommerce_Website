@@ -3,20 +3,35 @@
     width: 60%;
     margin: auto;
 }
+
+
+
+/* Page Break Images */
 #upperImage {
     width: 60%;
-    margin: auto;
+    margin: 5% auto 0;
     padding: 30px 0 20px;
     text-align: center;
     transform: scale(0.70);
 }
 #lowerImage {
     width: 60%;
-    margin: auto;
+    margin: 0 auto 5%;
     padding: 30px 0 20px;
     text-align: center;
     transform: rotate(180deg) scale(0.70);
 }
+
+
+
+/* Contact Information */
+#contactInfo {
+    font-family: "Playfair Display";
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
 
 /* Forms */
 .contactForm {
@@ -36,7 +51,6 @@
     color: black;
     margin: 5px 0;
     padding: 10px;
-/*    width: 100%;*/
 }
 
 .contactForm input {

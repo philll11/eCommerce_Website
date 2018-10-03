@@ -4,21 +4,79 @@
     <title>Sahara Clothing</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style_sheets/html_format_style.css"> 
+    
+    <link rel="stylesheet" type="text/css" href="style_sheets/html_format_style.css">
+    <link rel="stylesheet" type="text/css" href="style_sheets/home_page_style.css"> 
 </head>
 <body>
+<!--Navigation box-->
     <nav class="navBox">
         <div class="navImg">
             <a title="Name" href="home.html">Sahara Clothing</a>
         </div>
         <div class="navPageLinks">
             <a title="Contacts" href="contact.html">Contact</a>
-            <a title="Childrens" href="childrens.html">Kids</a>
             <a title="Womens" href="womens.html">Womens</a>
             <a title="Mens" href="mens.html">Mens</a>
-            <a title="Home"  class="active" href="home.html">Home</a>
+            <a title="Home" class="active" href="home.html">Home</a>
         </div>
     </nav>
+    
+    
+<!--First image section-->
+    <div class="main_home_image">        
+        <img id="mainImage" src="images/home_page_images/main_home.jpg" alt="Woman posing">
+        <div class="centered"><span>&#8226; Newest Season Arrivals &#8226;</span></div>
+    </div>
+    
+    
+    
+<!--Text box section-->
+    <div class="textSection">
+        <div id="upperImage" >
+            <img src="images/page_break_white.jpg">
+        </div>
+        <p>For 75 years we have been forging the way in fashion.<br><br><br>Setting, not following trends is how we've crafted a legacy worthy of the ages.</p>
+        <div id="lowerImage" >
+            <img src="images/page_break_white.jpg">
+        </div>
+    </div>
+    
+    
+    
+<!--Carousel section-->
+    <div class="carouselContainer">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="carousel fade">
+            <img src="images/home_page_images/headon_rack.jpg">
+        </div>
+
+        <div class="carousel fade">
+            <img src="images/home_page_images/rack.jpg">
+        </div>
+
+        <div class="carousel fade">
+            <img src="images/home_page_images/shop_floor.jpg">
+        </div>
+    </div>
+    <!-- The dots -->
+    <div class="dotContainer">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+    </div>
+    
+ <!--Text box section-->
+    <div class="textSection">
+        <div id="upperImage" >
+            <img src="images/page_break.jpg">
+        </div>
+        <p>Shop online or find us in store at the Bay Plaza in the heart of Hastings</p>
+        <div id="lowerImage" >
+            <img src="images/page_break.jpg">
+        </div>
+    </div>   
     
     
     <div class="footer">
@@ -29,5 +87,7 @@
         <a title="Collection Data" href="collection_data.html">Collection Data</a>
         <p>Powered by Sahar Software</p>
     </div>
+    
+    <script src="js/carousel_script.js"></script>   
 </body>
 </html>

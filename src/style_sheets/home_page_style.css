@@ -1,0 +1,98 @@
+body {
+    background-color: #f1f1f1;
+}
+/* Main home image */
+.main_home_image {
+    position: relative;
+    text-align: center;
+}
+.main_home_image img {
+    width: 100%;
+}
+.centered {
+    background-color: white;
+    opacity: 0.85;  
+    padding: 80px 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+.centered span {
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 4px;
+}
+
+
+
+/* About our range */
+.textSection {
+    background-color: white;
+    height: 400px;
+}
+.textSection p {
+    font-family: "Playfair Display";    
+    font-size: 20px;
+    font-style: oblique;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+    padding-top: 0px;    
+}
+/* Page Break Images */
+#upperImage {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+    transform: scale(0.70);
+}
+#lowerImage {
+    padding-bottom: 40px;
+    text-align: center;
+    transform: rotate(180deg) scale(0.70);
+}
+
+
+
+/* Carousel */
+.carouselContainer {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+/* Hides images not displayed */
+.carousel {
+    display: none;
+}
+.carousel img {
+    width: 100%;
+}
+.dotContainer {
+    text-align: center;
+    background-color: white;
+}
+/* The dots at the bottom of the carousel */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 17px 2px 0;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}

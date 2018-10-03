@@ -1,3 +1,7 @@
+body {
+    background-color: #f1f1f1;
+}
+
 .section {
 /*    border-style: solid;*/
     width: 60%;
@@ -43,7 +47,6 @@
 .contactForm h1 {
 /*    border-style: solid;*/    
     text-align: center;
-    background-color: white;
     font-family: "Playfair Display";
     text-decoration: none;
     letter-spacing: 5px;
@@ -59,11 +62,12 @@
     border-radius: 7px;
 }
 .contactForm button {
+    cursor: pointer;
     font-family: "Playfair Display";
     letter-spacing: 3px;
     font-size: 17px;
     border: none;
-    background-color: #e7e7e7;
+    background-color: #cfcfcf;
     color: #424242;
     border-radius: 7px;
     margin: 10px 0;

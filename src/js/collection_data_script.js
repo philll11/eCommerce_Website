@@ -10,10 +10,7 @@ function displayAllLocalStorage() {
                 enquires.push(temp);
                 temp = [];
             }
-        }
-        
-        
-        
+        }        
     } else {
         document.getElementById("display").innerHTML = "There are no customer equires";
     }

@@ -1,0 +1,54 @@
+#aboutImage img {
+    width: 100%;
+    opacity: 0.25;
+}
+.centered {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.centered span {
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 4px;
+}
+.centered p {
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 4px;
+}
+
+
+/* Text section */
+.textSection {
+    background-color: white;
+    height: 440px;
+}
+.textSection p {
+    font-family: "Playfair Display";    
+    font-size: 20px;
+    font-style: oblique;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+    padding-top: 0px;
+}
+#asColorImage {
+    width: 70px;
+}
+/* Page Break Images */
+#upperImage {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    transform: scale(0.70);
+}
+#lowerImage {
+    padding-bottom: 40px;
+    text-align: center;
+    transform: rotate(180deg) scale(0.70);
+}

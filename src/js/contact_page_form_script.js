@@ -1,11 +1,11 @@
 function clearEnqBoxes() {
-   $("#fullName").val() = "";
-   $("#email").val() = "";
-   $("#contactNumber").val() = "";
-   $("#enquiry").val() = "";       
+   $("#fullName").val("");
+   $("#email").val("");
+   $("#contactNumber").val("");
+   $("#enquiry").val("");       
 }
 function clearSubBoxes() {
-    $("#subscription").val() = "";
+    $("#subscription").val("");
 }
 
 /* Save form functionality */
@@ -38,6 +38,7 @@ $(document).ready(function() {
                 enquires.push([name, email, contactNumber, enquiry, new Date]);
 
                 localStorage.setItem("enquires", enquires);
+                clearEnqBoxes();
                 
 //              Testing
 //              console.log(localStorage.getItem("enquires"));
@@ -51,7 +52,6 @@ $(document).ready(function() {
         }
     }
     $("#saveFormBtn").click(saveForm);
-    $("#saveFormBtn").click(clearEnqBoxes);
 });
 
 
@@ -76,6 +76,8 @@ $(document).ready(function() {
                 subscriptions.push(newSub);
                 localStorage.setItem("subs", subscriptions);
                 
+                clearSubBoxes();
+                
 //              Testing
 //              console.log(localStorage.getItem("subs"));     
             } else {
@@ -84,6 +86,5 @@ $(document).ready(function() {
         } 
     }
     $("#subFormBtn").click(subForm);
-    $("#subFormBtn").click(clearSubBoxes);
 });
 

@@ -1,0 +1,25 @@
+
+/* Google Map Styling */
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+    margin-top: 3px;
+    height: 60%;
+    width: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* location Information */
+#locationInfo {
+    font-family: "Playfair Display";
+    text-align: center;
+    letter-spacing: 2px;
+    height: 290px;
+    padding-top: 30px;
+}

@@ -5,7 +5,7 @@
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style_sheets/html_format_style.css">
-    <link rel="stylesheet" type="text/css" href="style_sheets/map_style.css">
+    <link rel="stylesheet" type="text/css" href="style_sheets/store_location_style.css">
 </head>
 <body>    
     <nav class="navBox">
@@ -18,15 +18,18 @@
             <a href="mens.html">Mens</a>
             <a href="home.html">Home</a>
         </div>
-    </nav>
+    </nav>    
     
     
-    
-    <!--  Google map api  -->
+<!--Google map api  -->
     <div id="map"></div>
-    <script src="js/map_script.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCDStXry42W016naD6IahvOqsmn2fWgLc&callback=initMap"
-    async defer></script>
+    
+    <div id="locationInfo">            
+        <h1>Find Us At</h1>
+        <p>The Plaza, St Aubyn Street East & Karamu Road, Hastings</p>
+        <p><strong>Store Hours:</strong></p>
+        <pre><p>Mon | 9am - 5pm<br>Tue | 9am - 5pm<br>Wed | 9am - 5pm<br>Thu | 9am - 5pm<br>Fri | 9am - 5pm</p></pre>    
+    </div>
     
     
     <div class="footer">
@@ -37,5 +40,10 @@
         <a title="Collection Data" href="collection_data.html">Collection Data</a>
         <p>Powered by Sahara Software</p>
     </div>
+    
+    
+    <script src="js/map_script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCDStXry42W016naD6IahvOqsmn2fWgLc&callback=initMap"
+    async defer></script>
 </body>
 </html>

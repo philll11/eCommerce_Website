@@ -4,8 +4,14 @@
     <title>Sahara Clothing</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
+    
+    
     <link rel="stylesheet" type="text/css" href="style_sheets/html_format_style.css">
-    <script src="js/contact_page_form_script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style_sheets/collection_data_style.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/collection_data_script.js"></script>
+    
 </head>
 <body>
     <nav class="navBox">
@@ -19,10 +25,33 @@
             <a href="home.html">Home</a>
         </div>
     </nav>
+
+    <div class="section">
+<!--    Title & paragraph    -->
+    <div id="titleContainer">
+        <h1>Collection Data</h1>
+        <p>This is a self populating table that displays enquires from customers</p>    
+    </div>
+
+<!--Display table    -->
+    <div id="table">
+        <div class="row">
+            <div class="head">Customer</div>
+            <div class="head">Email</div>
+            <div class="head">Cell Phone Number</div>
+            <div class="head">Enquiry</div>
+            <div class="head">Time Stamp</div>
+        </div>
+    </div>
+
+<!--Display table control buttons        -->
+    </div>
+    <div class="btnContainer">
+        <p id="display"></p>
+        <button id="disLSBtn" type="button">Display Submissions</button>
+        <button id="clearLSBtn" type="button">Clear All</button>
+    </div>
     
-    <p id="display"></p>
-    <button type="button" onclick="displayAllLocalStorage()">Display Submissions</button>
-    <button type="button" onclick="clearAllLocalStorage()">Clear All</button>
     
     <div class="footer">
         <a title="About Us" href="about_us.html">About</a>

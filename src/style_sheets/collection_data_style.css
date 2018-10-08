@@ -1,0 +1,60 @@
+
+.section {
+    height: 500px;
+    margin: 100px 15% 0 15%;
+}
+#titleContainer {
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.displayContainer {    
+    margin: 50px auto;
+}
+
+#table {
+    display: table;
+}
+.row {
+    display: table-row;
+}
+.head {
+    display: table-header-group;
+    font-weight: bold;
+}
+.column, .head {
+    display: table-cell;
+  	padding: 3px 50px 3px 20px;
+  	border: 1px solid;
+}
+.btnContainer {
+    margin: 0 15% 50px 15%; 
+}
+.btnContainer button {
+    cursor: pointer;
+    font-family: "Playfair Display";
+    letter-spacing: 3px;
+    font-size: 17px;
+    border: none;
+    background-color: #cfcfcf;
+    color: #424242;
+    border-radius: 7px;
+    margin: 10px 0;
+    padding: 5px 10px;   
+}
+.displayContainer button:hover {
+    background-color: #c6c6c6;
+    color: black;    
+}
+
+@media only screen and (max-width: 1100px) {
+    .section {
+        margin: 5%;
+    }    
+    
+    .column, .head {
+        display: table-cell;
+        padding: 3px 20px;
+        border: 1px solid;
+    }
+}

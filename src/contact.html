@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" href="style_sheets/html_format_style.css">
     <link rel="stylesheet" type="text/css" href="style_sheets/contact_page_content_style.css">
     
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/contact_page_form_script.js"></script>
 </head>
 <body>
     
@@ -50,7 +53,7 @@
                     <input id="email" name="email" type="text" placeholder="Email">
                     <input id="contactNumber" name="contactNumber" type="text" placeholder="Contact Number">
                     <input id="enquiry" name="enquiry" type="text" placeholder="Enquiry">
-                    <button type="button" onclick="saveForm()">Submit</button>
+                    <button id="saveFormBtn" type="button">Submit</button>
                 </form>
             </div>
 
@@ -61,7 +64,7 @@
             <div class="contactContainer">
                 <form>
                     <input id="subscription" name="subscription" type="text" placeholder="Email">
-                    <button type="button" onclick="subForm()">Subscribe</button>
+                    <button id="subFormBtn" type="button">Subscribe</button>
                 </form>
             </div>
         </div>
@@ -81,8 +84,6 @@
         <p>Powered by Sahara Software</p>
     </div>
 
-    
-    <script src="js/contact_page_form_script.js"></script>
-    <script src="js/nav_bar_script.js"></script>
+
 </body>    
 </html>

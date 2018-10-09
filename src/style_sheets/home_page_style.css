@@ -40,13 +40,13 @@
     padding-top: 0px;    
 }
 /* Page Break Images */
-#upperImage {
+.upperImage {
     padding-top: 70px;
     padding-bottom: 40px;
     text-align: center;
     transform: scale(0.70);
 }
-#lowerImage {
+.lowerImage {
     padding-bottom: 40px;
     text-align: center;
     transform: rotate(180deg) scale(0.70);

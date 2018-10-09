@@ -15,7 +15,6 @@ body {
     box-shadow: 0 3px 4px -2px gray;
     padding: 0px 20px;
 }
-
 .navBox .navImg a {
     float: left;
     color: black;
@@ -25,7 +24,6 @@ body {
     text-decoration: none;
     font-size: 17px;
 }
-
 .navBox .navPageLinks a {
     float: right;
     color: black;    

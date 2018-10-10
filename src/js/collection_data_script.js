@@ -1,3 +1,4 @@
+// Displays all local storage
 $(document).ready(function() {
     function displayLS() {
         if (typeof (Storage) !== "undefined") {
@@ -26,13 +27,7 @@ $(document).ready(function() {
     $("#disLSBtn").click(displayLS);
 });
 
-//
-//    function test() {
-//        document.getElementById("table").innerHTML += "<div class=\"row\"><div class=\"column\">x</div><div class=\"column\">x</div><div class=\"column\">x</div><div class=\"column\">x</div><div class=\"column\">x</div></div>";
-//    }
-//    $("#clearLSBtn").click(test);
-
-
+// Clears all local storage
 $(document).ready(function() {
     function clearLS() {
         if (typeof (Storage) !== "undefined") {

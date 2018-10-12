@@ -1,3 +1,23 @@
+// Mailto objuscator
+$(document).ready(mailTo);
+function mailTo() {
+    coded = "TR2bZBm@mZ2Bb.1Wy"
+    key = "RD3fFGyp8lN7VJeZ06MwtIaXqCOSLkPQ95hzAinsojcYUvBH4KgmExuTbW21dr"
+    shift=coded.length
+    link="info@Sahara.co.nz"
+    for (i=0; i<coded.length; i++) {
+        if (key.indexOf(coded.charAt(i))==-1) {
+            ltr = coded.charAt(i)
+            link += (ltr)
+        } else {     
+            ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+            link += (key.charAt(ltr))
+        }
+    }
+    document.getElementById("emailLink").innerHTML = "<a href='mailto:"+link+"'>Email Us Here</a>";
+}
+
+
 function clearEnqBoxes() {
    $("#fullName").val("");
    $("#email").val("");
